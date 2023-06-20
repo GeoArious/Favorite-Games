@@ -1,0 +1,129 @@
+@import url('https://fonts.cdnfonts.com/css/breathe-fire');
+       
+
+:root {
+    --cor-primaria: #0d44168a;
+    --cor-secundaria: #000000;
+    --cor-terciaria: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Breathe Fire', sans-serif;
+}
+
+body, html {
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em 1em 0.4em 1em;
+    font-size: 2em;
+}
+
+.cabecalho__link__links {
+    padding: 0.5em;
+}
+
+.cabecalho__link__links {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho__link__links:hover {
+    color: var(--cor-terciaria);
+}
+
+body {
+    background-image: url('../assets/forestbackground.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.corpo__texto {
+    padding: 15em 1em 0 1em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.corpo__texto__titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo__texto__paragrafo {
+    padding: 1em 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape__index {
+    background-color: var(--cor-primaria);
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    padding: 0.7em 0 0.7em 0;
+    text-align: center;
+}
+
+/* games css */
+
+.jogos {
+    margin: 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 7em;
+    text-align: center;
+}
+
+.jogos__imagens {
+    max-height: 15em;
+    height: auto;
+    width: auto;
+}
+
+.rodape__jogos {
+    background-color: var(--cor-primaria);
+    margin: auto;
+    width: 100%;
+    padding: 0.7em 0 0.7em 0;
+    text-align: center;
+}
+
+figure:hover {
+    color: var(--cor-terciaria);
+}
+
+/*series css */
+
+.series__texto {
+    text-align: center;
+    padding: 1em 0 0 0;
+}
+
+.series__imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.series__imagens__logos {
+    margin: 2em;
+    border: 0.2em solid var(--cor-primaria);
+    border-radius: 1em;
+}
